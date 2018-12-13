@@ -46,7 +46,7 @@ const server = () => {
 		proxy.web(req, res, {
 			target: targetUrl,
 			secure: false,
-			changeOrigin: true
+			changeOrigin: false
 		})
 	}).listen(3000)
 

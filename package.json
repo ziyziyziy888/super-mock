@@ -1,6 +1,6 @@
 {
-  "name": "@meicai/super-easy-mock",
-  "version": "0.1.0",
+  "name": "super-easy-mock",
+  "version": "0.1.1",
   "description": "mock tool that is super easy",
   "main": "index.js",
   "scripts": {
