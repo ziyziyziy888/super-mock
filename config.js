@@ -1,7 +1,7 @@
 
 				const config = {
 					protocol: 'http',
-					domain: 'local.yunshanmeicai.com',
+					domain: '',
 					port: 7777,
 					mock: true
 				}

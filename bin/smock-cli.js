@@ -78,12 +78,12 @@ const add = () => {
 		const result = utils.parseUrl(url.trim())
 		const fileName = result.fileName
 		const jsonFilePath = result.jsonFilePath
-		await utils.dirExist(path.join('./', jsonFilePath))
+		await utils.dirExist(path.join(process.cwd(), './', jsonFilePath))
 
 		console.log(`The json file has been created in ./mock${url}.json`)
 		console.log(path.join(`${url.trim()}.json`))
 
-		fs.writeFileSync(path.join('./mock', path.join(`${url.trim()}.json`)), '// 请将后端的JSON内容复制到这里', () => {})
+		fs.writeFileSync(path.join(process.cwd(), './mock', path.join(`${url.trim()}.json`)), '// 请将后端的JSON内容复制到这里', () => {})
 
 		rl.close()
 	})

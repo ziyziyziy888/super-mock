@@ -1,6 +1,6 @@
 {
   "name": "super-easy-mock",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "mock tool that is super easy",
   "main": "index.js",
   "scripts": {
